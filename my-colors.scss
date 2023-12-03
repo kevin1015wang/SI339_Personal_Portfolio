@@ -1,0 +1,158 @@
+
+/*------------------------------------
+- COLOR lecoColor
+------------------------------------*/
+
+$lecocolor_t1: #283b49;
+$lecocolor_t2: #152028;
+$lecocolor_t3: #648caa;
+$lecocolor_t4: #7599b3;
+$lecocolor_t5: #000000;
+$lecocolor_t6: #10181e;
+$lecocolor_t7: #1b2831;
+$lecocolor_t8: #000000;
+$lecocolor_t9: #82a2ba;
+
+$lecocolor_shadow: rgba(40, 59, 73, 0.5);
+$lecocolor_text_color_dark_bright: #fff;
+
+
+.alert-lecoColor {
+  color: $lecocolor_t5;
+  background-color: $lecocolor_t9;
+  border-color: $lecocolor_t4;
+}
+
+.alert-lecoColor hr {
+  border-top-color: $lecocolor_t3;
+}
+
+.alert-lecoColor .alert-link {
+  color: $lecocolor_t8;
+}
+
+.badge-lecoColor {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t1;
+}
+
+.badge-lecoColor[href]:hover, .badge-lecoColor[href]:focus {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t2;
+}
+
+.bg-lecoColor {
+  background-color: $lecocolor_t1 !important;
+}
+
+a.bg-lecoColor:hover, a.bg-lecoColor:focus,
+button.bg-lecoColor:hover,
+button.bg-lecoColor:focus {
+  background-color: $lecocolor_t2 !important;
+}
+
+.border-lecoColor {
+  border-color: $lecocolor_t1 !important;
+}
+
+.btn-lecoColor {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t1;
+  border-color: $lecocolor_t1;
+}
+
+.btn-lecoColor:hover {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t7;
+  border-color: $lecocolor_t2;
+}
+
+.btn-lecoColor:focus, .btn-lecoColor.focus {
+  box-shadow: 0 0 0 0.2rem $lecocolor_shadow;
+}
+
+.btn-lecoColor.disabled, .btn-lecoColor:disabled {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t1;
+  border-color: $lecocolor_t1;
+}
+
+.btn-lecoColor:not(:disabled):not(.disabled):active, .btn-lecoColor:not(:disabled):not(.disabled).active, .show > .btn-lecoColor.dropdown-toggle {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t2;
+  border-color: $lecocolor_t6;
+}
+
+.btn-lecoColor:not(:disabled):not(.disabled):active:focus, .btn-lecoColor:not(:disabled):not(.disabled).active:focus, .show > .btn-lecoColor.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $lecocolor_shadow;
+}
+
+.btn-outline-lecoColor {
+  color: $lecocolor_t1;
+  background-color: transparent;
+  border-color: $lecocolor_t1;
+}
+
+.btn-outline-lecoColor:hover {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t1;
+  border-color: $lecocolor_t1;
+}
+
+.btn-outline-lecoColor:focus, .btn-outline-lecoColor.focus {
+  box-shadow: 0 0 0 0.2rem $lecocolor_shadow;
+}
+
+.btn-outline-lecoColor.disabled, .btn-outline-lecoColor:disabled {
+  color: $lecocolor_t1;
+  background-color: transparent;
+}
+
+.btn-outline-lecoColor:not(:disabled):not(.disabled):active, .btn-outline-lecoColor:not(:disabled):not(.disabled).active, .show > .btn-outline-lecoColor.dropdown-toggle {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t1;
+  border-color: $lecocolor_t1;
+}
+
+.btn-outline-lecoColor:not(:disabled):not(.disabled):active:focus, .btn-outline-lecoColor:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lecoColor.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $lecocolor_shadow;
+}
+
+.list-group-item-lecoColor {
+  color: $lecocolor_t5;
+  background-color: $lecocolor_t4;
+}
+
+.list-group-item-lecoColor.list-group-item-action:hover, .list-group-item-lecoColor.list-group-item-action:focus {
+  color: $lecocolor_t5;
+  background-color: $lecocolor_t3;
+}
+
+.list-group-item-lecoColor.list-group-item-action.active {
+  color: $lecocolor_text_color_dark_bright;
+  background-color: $lecocolor_t5;
+  border-color: $lecocolor_t5;
+}
+
+.table-lecoColor,
+.table-lecoColor > th,
+.table-lecoColor > td {
+  background-color: $lecocolor_t4;
+}
+
+.table-hover .table-lecoColor:hover {
+  background-color: $lecocolor_t3;
+}
+
+.table-hover .table-lecoColor:hover > td,
+.table-hover .table-lecoColor:hover > th {
+  background-color: $lecocolor_t3;
+}
+
+.text-lecoColor {
+  color: $lecocolor_t1 !important;
+}
+
+a.text-lecoColor:hover, a.text-lecoColor:focus {
+  color: $lecocolor_t2 !important;
+}

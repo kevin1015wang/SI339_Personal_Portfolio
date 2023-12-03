@@ -1,0 +1,145 @@
+.intro {
+    height: 100%;
+}
+
+.lecoCard {
+    /* background-color: #283b49 */
+    background-color: #283b49;
+}
+
+.SkillLabel {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0 0.14285714em;
+    background-color: #e8e8e8;
+    background-image: none;
+    padding: 0.5833em 0.833em;
+    color: rgba(0, 0, 0, .6);
+    text-transform: none;
+    font-weight: 600;
+    border: 0 solid transparent;
+    border-radius: 0.28571429rem;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
+    font-size: .85714286rem;
+    color: #fff;
+}
+
+.skillFlutter {
+    background-color: #2372d6;
+    border-color: #2372d6;
+}
+
+.skillCsharp {
+    background-color: #05930b;
+    border-color: #05930b;
+}
+
+.skillWPF {
+    background-color: #095095;
+    border-color: #095095;
+}
+
+.skillMatlab {
+    background-color: #0076a8;
+    border-color: #0076a8;
+}
+
+.skillCplusplus {
+    background-color: #004482;
+    border-color: #004482;
+}
+
+.courseIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.img-max {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.img-maxCuston {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.skillPython {
+    background-color: #f5bd16;
+    border-color: #f5bd16;
+}
+
+.skillJS {
+    background-color: #f0db4e;
+    border-color: #f0db4e;
+}
+
+.skillJulia {
+    background-color: #9359a5;
+    border-color: #9359a5;
+}
+
+.skillMSU {
+    background-color: #18453b;
+    border-color: #18453b;
+}
+
+.skillFirebase {
+    background-color: #f5820b;
+    border-color: #f5820b;
+}
+
+.skillBootstrap {
+    background-color: #563d7c;
+    border-color: #563d7c;
+}
+
+.skillHTML {
+    background-color: #e34c26;
+    border-color: #e34c26;
+}
+
+.skillCSS {
+    background-color: #264de4;
+    border-color: #264de4;
+}
+
+.skillArduino {
+    background-color: #00979d;
+    border-color: #00979d;
+}
+
+.skillTailwind {
+    background-color: #06b6d4;
+    border-color: #06b6d4;
+}
+
+.pic-shadow {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1); /* smooth transition */
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+.externalIcon {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0 0.14285714em;
+    background-color: #e8e8e8;
+    background-image: none;
+    padding: 0.5833em 0.833em;
+    color: rgba(0,0,0,.6);
+    text-transform: none;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: 0.28571429rem;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
+    font-size: .85714286rem;
+    cursor: pointer;
+    margin-right: 0;
+    text-decoration: none;
+}

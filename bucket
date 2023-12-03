@@ -1,0 +1,17 @@
+<div class=".shadow-4 card text-white bg-secondary mb-2" style="max-width: 18rem;">
+                            <div class="card-header">
+                                <div class="row row-cols-auto">
+                                    <div class="col-md-2"><a href="https://engr101staff.github.io/engr101.org/"><img
+                                                src="engineeringuofm.png" class="img-fluid" alt="LECO logo"></a></div>
+                                    <div class="col">ENGR 101</div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Elementary Programming Concepts</h5>
+                                <p class="card-text">
+                                    Solving engineering problems with computer programming in MATLAB and C++.
+                                </p>
+                                <div class="SkillLabel skillMatlab">MATLAB</div>
+                                <div class="SkillLabel skillCplusplus">C++</div>
+                            </div>
+                        </div>
